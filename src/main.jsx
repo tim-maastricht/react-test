@@ -4,7 +4,7 @@ import FavPokemonList from './components/FavPokemonList.jsx'
 import './styles/index.css'
 import App from './components/App.jsx'
 import PageLayout from './components/_PageLayout.jsx'
-
+// add more components
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <PageLayout>
