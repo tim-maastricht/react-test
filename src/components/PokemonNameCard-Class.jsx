@@ -5,7 +5,7 @@ export default class PokemonNameCard extends React.Component {
     console.log("Class component rendered!");
     return(
       <h2>
-        Hello from class component!
+        {this.props.pokemonName}
       </h2>
     )
   }

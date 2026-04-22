@@ -1,14 +1,13 @@
-import PokemonNameCard from "./PokemonNameCard";
+import PokemonNameCard from "./PokemonNameCard-Class";
 
-let pokemonNames = ["Pikachu", "Gyarados", "Charizard", "Mewtwo"];
+let pokemonNames = ["Pikachu", "Mewtwo", "Charizard", "Pinsir"];
 
-export default function FavPokemonList() {
+export default function FavouritePokemonList() {
   return (
-    <div className="container">
+    <div>
       <h1>Favourite Pokemon List</h1>
       {pokemonNames.map((name, index) => {
-        // return <h2 key={index}>{name}</h2>;
-        return <PokemonNameCard key={index} pokemonName={name} />
+        return <PokemonNameCard pokemonName={name} key={`${name}-${index}`} />;
       })}
     </div>
   );
