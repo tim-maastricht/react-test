@@ -5,7 +5,7 @@ export default function PageLayout({children}) {
   return (
     <>
       <header>
-        <h1>Website Title</h1>
+        {/* <h1>Website Title</h1> */}
       </header>
 
       {children}
