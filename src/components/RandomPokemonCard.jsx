@@ -21,7 +21,7 @@ export default class RandomPokemonCard extends React.Component {
       pokemonName: jsonData.name,
       pokemonSprite: jsonData.sprites.front_default
     })
-  }// comment
+  }
 
   render() {
     return (
